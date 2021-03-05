@@ -9,20 +9,14 @@ export const Container = styled.div`
 `
 
 export const Formulary = styled.div`
-
+    width: 70%;
+    max-width: 400px;
 `
 export const Header = styled.div`
-
+    width: 70%;
+    max-width: 350px;
+    margin: 0 0 2rem;
 `
 export const FormControl = styled.div`
-
-`
-export const Label = styled.div`
-
-`
-export const TextField = styled.input`
-
-`
-export const FieldTip = styled.div`
-
+    margin: 0 0 2rem;
 `
