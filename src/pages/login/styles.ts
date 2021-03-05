@@ -23,9 +23,6 @@ export const Label = styled.div`
 export const TextField = styled.input`
 
 `
-export const Button = styled.button`
-
-`
 export const FieldTip = styled.div`
 
 `

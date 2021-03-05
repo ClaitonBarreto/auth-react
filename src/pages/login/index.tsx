@@ -1,3 +1,5 @@
+//my components
+import PButton from '@components/Button/Primary'
 
 //styles
 import { 
@@ -7,7 +9,6 @@ import {
     FormControl,
     Label,
     TextField,
-    Button,
     FieldTip
 } from './styles'
 
@@ -30,9 +31,7 @@ const Login = () => {
                     <FieldTip>Must be 8 characters at least</FieldTip>
                 </FormControl>
                 <FormControl>
-                    <Button>
-                        Sign in
-                    </Button>
+                    <PButton text="Sign in" />
                 </FormControl>
             </Formulary>
         </Container>
